@@ -292,23 +292,21 @@
          color: var(--primary-text-color);
         }
         .features-img{
+            
            display: block;
             margin-bottom: 30px;
             width: 270px;
             height: 120px;
             background-color: var(--secondary-bg-color);
             border-radius: 4px;
+            text-align: center;
             
-           
         }
         .features-sprite{
              width: 70px;
             height: 70px;
         }
-        
-            
-        
-            .features-item:not(:last-child) {
+         .features-item:not(:last-child) {
                 margin-right: 30px;
                 }
             
