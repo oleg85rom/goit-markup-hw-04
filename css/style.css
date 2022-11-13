@@ -249,7 +249,7 @@
         letter-spacing: 0.06em;
         color: var(--primary-white-color);
         background-color: var(--accent-color);
-      
+        cursor:pointer;
         letter-spacing: 0.06em;
          color: #FFFFFF;
         border: 1px solid #000000;
