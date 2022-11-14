@@ -132,6 +132,7 @@
         .nav-link:hover,
         .nav-link:focus{
             color: var(--accent-color);
+            
             }
        
         .mail{
@@ -177,6 +178,10 @@
        
         .site-nav .iten:last-child{
             margin-right: 0;
+        }
+        .site-nav:hover,
+        .site-nav:focus{
+             color: var(--accent-color);
         }
         .item-icon{
             fill:currentColor;
@@ -229,8 +234,7 @@
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-       
-        color: var(--primary-white-color);
+       color: var(--primary-white-color);
         
         }
         /* Button */
