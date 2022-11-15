@@ -75,9 +75,8 @@
          }
          .header-container{
             display: flex;
+            align-items: center;
             
-            justify-content: center;
-            text-align: center;
             margin-top: 0;
             padding-top: 0;
             padding-bottom: 0;
@@ -85,8 +84,7 @@
             letter-spacing: 0.02em;
          }
          
-         .page-header{
-           
+         .page-header{ 
         border-bottom-width: 1px;
         border-bottom-style:solid ;
         border-bottom-color: #ECECEC;
@@ -145,8 +143,8 @@
             color: var(--accent-color);
         }
         .contacts-nav-link{  
-
-            display: block;
+            display: flex;
+            
             padding-top: 32px;
             padding-bottom: 32px;
             font-style: normal;
@@ -154,7 +152,7 @@
             font-size: 14px;
             line-height: 16px;
             letter-spacing: 0.02em;
-          
+         align-items: center;
                 
         color: var(--secondary-text-color);
         }
@@ -172,12 +170,14 @@
         .site-nav-list{
             display: flex;
             
-            margin: 0;
+             margin: 0;
             margin-left: auto;
-            align-items: center;
+            text-align: center;
             margin-left: 205px;
         }
-       
+       .current{
+        color: var(--accent-color);
+       }
         .site-nav .iten:last-child{
             margin-right: 0;
         }
@@ -212,8 +212,8 @@
                 height: 600px;
                 margin-right: auto;
                 margin-left: auto;
-                background-color: rgba(47, 48, 58, 0.4); 
-                background-image:  url(../images/overlay.jpg);
+                 background-color: #C4C4C4;
+                 background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/overlay.jpg);
                 
                 background-size: cover;
                 
@@ -322,7 +322,7 @@
             .features-img{
                 display: flex;
                 align-items: center;
-                justify-content: center
+                justify-content: center;
             }
         .features-text {
         
@@ -590,13 +590,7 @@
             margin-right: 0;
             }
         
-        .flex-element{
-            background: #ffffff;
-            /* border: 1px solid #eeeeee; */
-            box-sizing: border-box;
-            
-            }
-            .flex-element:hover{
+        .flex-element:hover{
                 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
                 1px 4px 6px rgba(0, 0, 0, 0.16);
             }
